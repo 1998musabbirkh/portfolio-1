@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <div className="flex h-[450px]">
-      <div className="flex flex-col justify-center w-1/2 px-8 gap-4 border-l border-white border-b border-r">
+      <div className="flex flex-col justify-center w-1/2 px-8 gap-8 border-l border-white border-b border-r">
         <motion.h1
           className="text-white text-5xl font-ubuntu"
           initial={{ opacity: 0 }}
@@ -21,8 +21,7 @@ const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          A passionate Fullstack Web Developer based in Bangladesh, dedicated to
-          creating innovative, scalable, and high-performance web applications.
+          A passionate and detail-oriented Fullstack Web Developer based in Bangladesh. With a strong commitment to crafting innovative, scalable, and high-performance web applications, I specialize in leveraging cutting-edge technologies to build seamless and dynamic digital experiences. My goal is to deliver impactful solutions tailored to meet user needs and drive business success.
         </motion.p>
         <Button content="View Projects" href="/" />
       </div>
