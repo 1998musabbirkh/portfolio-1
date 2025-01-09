@@ -18,7 +18,7 @@ const Navbar = () => {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8, ease: "easeInOut" }}
     >
-      <h3 className="font-ubuntu text-3xl uppercase text-white">
+      <h3 className="font-fontPrimary text-3xl uppercase text-white">
         <a href="/">MK</a>
       </h3>
       <nav>
@@ -26,7 +26,7 @@ const Navbar = () => {
           {navItems.map((item, index) => (
             <li key={index}>
               <a
-                className="text-white font-lato hover:text-colorPrimary transition-colors duration-300"
+                className="text-white font-fontSecondary hover:text-colorPrimary transition-colors duration-300"
                 href={item.link}
               >
                 {item.name}

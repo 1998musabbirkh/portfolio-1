@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        ubuntu: ["Ubuntu", "serif"],
-        lato: ["Lato", "serif"],
+        fontPrimary: ["Playfair Display", "serif"],
+        fontSecondary: ["Roboto", "serif"],
       },
       colors: {
         colorPrimary: "#FFC300",

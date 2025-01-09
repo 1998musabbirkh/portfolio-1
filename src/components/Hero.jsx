@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="flex h-[450px]">
       <div className="flex flex-col justify-center w-1/2 px-8 gap-8 border-l border-white border-b border-r">
         <motion.h1
-          className="text-white text-5xl font-ubuntu"
+          className="text-white text-5xl font-fontPrimary"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
@@ -16,7 +16,7 @@ const Hero = () => {
           Hi I am John Doe
         </motion.h1>
         <motion.p
-          className="text-white font-lato text-base leading-tight"
+          className="text-white font-fontSecondary text-base leading-snug"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}

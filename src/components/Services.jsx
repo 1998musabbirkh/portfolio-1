@@ -32,7 +32,7 @@ const Services = () => {
 
   return (
     <div className="mt-9">
-      <h2 className="text-center text-white text-3xl font-ubuntu">
+      <h2 className="text-center text-white text-3xl font-fontPrimary">
         Services I provide
       </h2>
       <div className="flex mt-4 gap-4">
@@ -45,17 +45,17 @@ const Services = () => {
             viewport={{ once: true }}
             transition={{ delay: index * 0.2, duration: 0.5 }}
           >
-            <div className="grid grid-cols-[auto_1fr] items-center gap-8">
+            <div className="grid grid-cols-[auto_1fr] items-center gap-6">
               <img
                 className="w-12 h-12 filter invert"
                 src={service.src}
                 alt={service.alt}
               />
-              <h3 className="text-xl font-ubuntu text-white">
+              <h3 className="text-xl font-fontPrimary text-white">
                 {service.heading}
               </h3>
             </div>
-            <p className="text-white font-lato">{service.content}</p>
+            <p className="text-white font-fontSecondary">{service.content}</p>
             <Button content="Learn More" href="/" />
           </motion.div>
         ))}
