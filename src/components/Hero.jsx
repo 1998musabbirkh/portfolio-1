@@ -13,7 +13,7 @@ const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          Hi I am Musabbir Khan
+          Hi I am John Doe
         </motion.h1>
         <motion.p
           className="text-white font-lato text-base leading-tight"
@@ -21,7 +21,12 @@ const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          A passionate and detail-oriented Fullstack Web Developer based in Bangladesh. With a strong commitment to crafting innovative, scalable, and high-performance web applications, I specialize in leveraging cutting-edge technologies to build seamless and dynamic digital experiences. My goal is to deliver impactful solutions tailored to meet user needs and drive business success.
+          A passionate and detail-oriented Fullstack Web Developer based in
+          Bangladesh. With a strong commitment to crafting innovative, scalable,
+          and high-performance web applications, I specialize in leveraging
+          cutting-edge technologies to build seamless and dynamic digital
+          experiences. My goal is to deliver impactful solutions tailored to
+          meet user needs and drive business success.
         </motion.p>
         <Button content="View Projects" href="/" />
       </div>
